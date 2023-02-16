@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirtsComponentComponent } from './components/firts-component/firts-component.component';
+import { ParentDataComponent } from './components/parent-data/parent-data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirtsComponentComponent
+    FirtsComponentComponent,
+    ParentDataComponent
   ],
   imports: [
     BrowserModule,

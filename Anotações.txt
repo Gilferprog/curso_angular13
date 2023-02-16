@@ -1,0 +1,53 @@
+Curso Angular - Matheus Battist
+
+Para instalar o Agular no cmd digite:
+npm install -g @angular/cli
+
+Para criar o projeto, no cmd digite:
+ng new <nome do projeto>
+
+Para rodar o projeto no servidor digite:
+ng serve --opem
+
+
+Digite:
+ctrl c  ==> Para parar de rodar o projeto no servidor, services e etc.
+
+A pasta src/app é a pasta principal onde iremos criar nossos components.
+Os components quando criados crian pastas automaticamente pastas:
+- TS
+- HTMS
+- CSS
+- TESTES
+
+- Criar um componente digite:
+  ng generate <nome do component>
+
+- app.modules.ts - E´o arquivo central de configuração da aplicação.
+
+- Para importar um componente basta utilizar seu seletor, em um html  de outro componente.
+
+- seletor encontra-se na pasta components.ts copie o seletor
+
+@Component({
+  selector: 'app-first-component', <==========
+  templateUrl: './first-component.component.html',
+  styleUrls: ['./first-component.component.css']
+
+-E criem uma tag na pasta app component.html (central)
+
+  <app-first-component></app-first-component> 
+
+Apos isto você pode ver o seu componente criado no seu navegador .
+
+Proxima Aula 07ng serve --open
+
+
+
+
+
+
+
+
+
+
